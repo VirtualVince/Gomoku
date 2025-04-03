@@ -1,0 +1,56 @@
+Data Structures and Algorithms
+Gomoku (Five in a Row) Game with AI 
+Submission document
+DUE DATE: Friday 4th APRIL 2025
+This Project is worth 15%
+YOU MUST UPLOAD THIS COMPLETED DOCUMENT IN MICROSOFT WORD FORMAT ONLY.
+
+Project Group Size: 4 to 5 people (Complete the area below with each team member’s details)
+
+First Name: Vincente
+Last Name: Sequeira
+Student ID: 101484793
+
+First Name: Arina 
+Last Name: Mirzakhani 
+Student ID: 101418340
+
+First Name: Lakshay 
+Last Name: Dhawan 
+Student ID: 101464867
+
+	
+First Name: Iqbal 
+Last Name: Tahir Qureshi 
+Student ID: 101366167
+
+First Name: Melica 
+Last Name: Alikhani-Marqueti
+Student ID: 101360798
+
+NOTE:
+	
+YOU MUST ONLY USE BASIC ARRAYS TO MODEL THE BOARD STATE – if this is not done, the maximum mark that can be attained is 5/10.
+
+The non-AI part (2 human players) is worth 7 marks
+The recursive minimax version (1 human vs AI) is worth 3 marks
+
+This assignment loses 30% each day (based on the date) after the 4thApril. 
+This means if it is submitted 12:01 AM (1 minute late) on the 5th, the maximum mark that can be got is 7/10.
+This means if it is submitted 12:01 AM on the 6th, the maximum mark that can be got is 4/10.
+It is therefore better to submit a non-working AI version on time than an AI version late.
+
+
+Submission Format
+
+This is a group assignment, and one report and code will be submitted per group.  
+Your group must submit two Items:
+This completed submission document with ALL the group member’s names inserted at the top and code pasted neatly into it. 
+
+The completed Java source files with all student’s names and numbers commented at the top of the code[not the whole project, just all the java classes you created]. To be clear, do NOT upload a whole solution.
+Please note your code must be properly documented.
+Arina Mirzakhani - 1, 2 a, b
+Vincente Sequeira - 2 c, d, e
+Lakshay Dhawan - 3 f, g
+Iqbal Tahir Qureshi - 3 h, i
+Melica Alikhani-Marqueti - 3 j
