@@ -54,12 +54,12 @@ public class GomokuGame {
             char aiSymbol = (playerSymbol == 'B') ? 'W' : 'B';
             boolean isHumanTurn = (playerSymbol == 'B'); // Black goes first
 
-            // ==========================================
-            // Author: Arina Mirzakhani
-            // Section: 1 - Class Setup, Constants, Scanner
-            // Purpose: Game setup, board declaration
-            // ==========================================
-            // Game loop for 1-player mode
+// ==========================================
+// Author: Arina Mirzakhani
+// Section: 1 - Class Setup, Constants, Scanner
+// Purpose: Game setup, board declaration
+// ==========================================
+// Game loop for 1-player mode
             while (true) {
                 printBoard();
 
