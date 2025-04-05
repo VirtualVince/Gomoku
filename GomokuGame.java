@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+// ==========================================
+// Author: Arina Mirzakhani
+// Section: 1 - Class Setup, Constants, Scanner
+// Purpose: Game setup, board declaration
+// ==========================================
+
 public class GomokuGame {
     static final int SIZE = 9;
     static final int WIN_COUNT = 5;
@@ -48,6 +54,11 @@ public class GomokuGame {
             char aiSymbol = (playerSymbol == 'B') ? 'W' : 'B';
             boolean isHumanTurn = (playerSymbol == 'B'); // Black goes first
 
+            // ==========================================
+            // Author: Arina Mirzakhani
+            // Section: 1 - Class Setup, Constants, Scanner
+            // Purpose: Game setup, board declaration
+            // ==========================================
             // Game loop for 1-player mode
             while (true) {
                 printBoard();
@@ -89,8 +100,12 @@ public class GomokuGame {
                 isHumanTurn = !isHumanTurn;
             }
         } else {
+            // ==========================================
+            // Author: Vincente Sequeira
+            // Section: 2e - Board Display
+            // Purpose: Printing the game board
+            // ==========================================
             // 2-player mode (Human vs Human)
-
             // Consume leftover newline
             // (if any) before reading new input.
             // scanner.nextLine();
@@ -283,7 +298,11 @@ public class GomokuGame {
         }
         return best;
     }
-
+// ==========================================
+// Author: Lakshay Dhawan
+// Section: 3g - Win Condition Logic
+// Purpose: Check if player has won
+// ==========================================
     static boolean checkWinState(char symbol) {
         for (int i = 0; i < SIZE; i++)
             for (int j = 0; j < SIZE; j++)
@@ -291,10 +310,13 @@ public class GomokuGame {
                     return true;
         return false;
     }
- 
- // Inside the 2-player mode (Human vs Human) game loop
+// ==========================================
+// Author: Iqbal Tahir Qureshi
+// Section: 3i - AI Move Selection (Basic)
+// Purpose: Simple move finder for AI
+// ==========================================
+// Inside the 2-player mode (Human vs Human) game loop
 // Add this block inside the `else` part of the while loop (after 3g):
-
 while (true) {
     printBoard();
 
